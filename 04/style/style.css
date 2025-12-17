@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+
+.section{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.header-inner{
+    max-width: 942px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fb-header{
+    margin-left: auto;
+}
+.insta-header{
+   right: 0;
+}
+.fb-header{
+    margin-right: 15px;
+}
+.container{
+    max-width: 810px;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+}
+.container-email{
+    padding-top: 112px;
+}
+
+.section-email{
+    background-color: #FAC960;
+    height: 421px;
+}
+
+.section-email h1{
+    font-size: 44px;
+    color: #8A6D2F;
+    padding-bottom: 50px;
+}
+.email-input{
+    width: 560px;
+    height: 58px;
+    font-size: 30px;
+}
+.email-button{
+    width: 238px;
+    height: 58px;
+    background-color: #A8863D;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}  
+
+.section-infinity{
+    height: 440px;
+    background-color: #F2F2F2;
+}
+
+.section-infinity h2{
+    font-size: 37px;
+    padding-top: 80px;
+    padding-bottom: 35px;
+    opacity: 0.56;
+}
+
+.section-infinity p{
+    font-size: 23px;
+    padding-bottom: 60px;
+    opacity: 0.40;
+}
+
+.section-phone{
+    /* height: 440px; */
+    background-color: #FFFFFF;
+}
+
+.section-phone h2{
+    font-size: 37px;
+    padding-top: 90px;
+    padding-bottom: 35px;
+    opacity: 0.56;
+}
+
+.section-phone p{
+    font-size: 23px;
+    padding-bottom: 35px;
+    opacity: 0.40;
+}
+.phone-img{
+    margin-bottom: 25px;
+}
+.section-friend{
+    height: 312px;
+    background-color: #FAC960;
+}
+.section-friend h2{
+    font-size: 37px;
+    padding-top: 57px;
+    padding-bottom: 35px;
+    color: #8A6D2F;
+}
+.section-friend p{
+    font-size: 22px;
+    padding-bottom: 36px;
+    opacity: 0.40;
+}
+.friend-button{
+    width: 60px;
+    height: 22px;
+    background-color: #ffffff;
+    color: #999999;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.footer{
+    background-color: #ffffff;
+    height: 243px;
+}
+.footer-logo{
+    margin-top: 80px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.footer-social{
+    display: flex;
+    justify-content: center; /* по центру */
+    align-items: center;     /* по вертикалі */
+    gap: 20px;  
+}
