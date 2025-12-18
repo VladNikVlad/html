@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 1728px;
+    height: 1074px;
+    background-image: url("../img/Rectangle\ 1.png ");
+    background-repeat: no-repeat;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+.header-inner{
+    height: 75px;
+    margin-top: 42px;
+    display: flex; 
+}
+.h-netflix{
+    height: 48px;
+    margin-top: 28px;
+}
+.img-netflix{
+    margin-left: 40px;
+    margin-top: 28;
+    width: 156px;
+    height: 48px;
+}
+.h-vector{
+    height: 88px;
+    margin-top: 37px;
+    margin-left: 56px;
+}
+.vector-header{
+    display: inline-block;
+    width: 3px;
+    height: 28px;
+    background: rgb(255, 255, 255);
+}
+
+.h-date{
+    margin-top: 37px;
+    margin-left: 20px;;
+}
+
+.h-date p {
+    font-size: 24px;
+    color: #C8C8C8;
+    font-weight: 500;
+} 
+
+.h-photo {
+    margin-left: auto;
+    margin-right: 33px;
+    margin-left: 45px;
+}
+
+.h-search{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.h-search p{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.s-description{
+    margin-top: 120px;
+}
+
+.genre{
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.d-vector{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.vector-d{
+    display: inline-block;
+    width: 3px;
+    height: 33px;
+    background: rgb(255, 255, 255);
+}
+
+.genre p{
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.film-info{
+    margin-top: 33px;
+    margin-left: 40px;
+}
+
+.film-info h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.fi-date{
+    margin-top: 30px;
+    display : flex;
+    align-items: center;
+}
+
+.fi-vector{
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.d-vector{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fi-date p{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.fi-date span{
+    font-family: 'Inter', sans-serif;
+    font-size: 29px;
+    color: #A7A6A6;
+    font-weight: 400;
+}
+
+.fi-description{
+    margin-top: 22px;
+    margin-left: 40px;
+}
+
+.fi-description p{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #A7A6A6;
+    font-weight: 400;
+}
+
+.fi-stars{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.fi-stars p{
+    font-size: 32px;
+    margin-right: 10px;
+}
+.yellow-star{
+    color: #FFD700;
+}
+
+.button{
+    width: 270px;
+    height: 65px;
+    border-radius: 10px;
+    margin-right: 90px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+}
+.strim_button{
+    background: #D40D1F;
+    border: 0;
+}
+
+.episode_button{
+    border: 3px;
+    opacity: 0;
+}
+
+.hero-buttons {
+    display: flex;
+    margin-top: 54px;
+    margin-left: 40px;
+}
+
+/* Загальні стилі */
+.btn {
+    padding: 14px 32px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 90px;
+    width: 270px;
+    height: 65px;
+    transition: all 0.3s ease;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #e50914;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #f6121d;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-outline:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.play {
+    font-size: 32px;
+    margin-left: 8px;
+}
+
+.advertisement{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.advertisement h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 800;
+    line-height: 145%;
+    letter-spacing: 0.135em; 
+}
+
+.posters{
+    display: flex;
+    margin-top: 30px;
+}
+
+.posters img{
+    margin-right: 50px;
+}
+
+.ad-navigat{
+    display: flex;
+    width: 950px;
+}
+
+.ad-navigat p{
+    font-size: 42px;
+}
+
+.chevron-left{
+    margin-left: auto;
+    width: 38px;
+    height: 38px;
+    border: 2px solid #A7A6A6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chevron-left i {
+  color: #A7A6A6;
+  font-size: 16px;
+}
+.chevron-right{
+    margin-right: 0;
+    margin-left: 25px;
+    width: 38px;
+    height: 38px;
+    border: 2px solid #A7A6A6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chevron-right i{
+  color: #A7A6A6;
+  font-size: 16px;
+}
+
+.posters img{
+    width: 151px;
+    height: 210px;
+}
+
+ .rectangle {
+    width: 174px;
+    height: 66px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 145%;
+    color: rgb(255, 255, 255);
+    border: 0;
+    margin-left: auto;
+    margin-top: 90px;
+  }
+
+  .left-side {
+    width: 33px;
+    height: 66px;
+    background-color: red;
+  }
+
+  .right-side {
+    flex-grow: 1;
+    height: 66px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
