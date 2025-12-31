@@ -1,0 +1,208 @@
+:root{
+    --dark-img: url('../img/shillong-2847249\ 1.png');
+}
+
+body{
+    background-image: var(--dark-img);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 30px 60px 30px 60px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+    margin-top: 54px;
+    margin-left: 40px;
+}
+
+.header-btn{
+    width: 193px;
+    height: 61px;
+}
+
+.btn {
+    /* padding: 14px 32px; */
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    width: 193px;
+    height: 61px;
+    transition: all 0.3s ease;
+    justify-content: center;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-outline:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.vector-menu {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 60px 0 60px
+}
+
+.menu-left-cide {
+    max-width: 900px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.menu-left-cide img {
+    padding-left: -20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left center;
+}
+
+
+.menu-right-side {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "title title title"
+        "subtitle subtitle subtitle"
+        "img1 img2 img3"
+        ". . rectangle";
+}
+
+.r-side-title {
+    grid-area: title;
+}
+
+.r-side-subtitle {
+    grid-area: subtitle;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.rectangle {
+    grid-area: rectangle;
+}
+
+.r-side-title h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Lora;
+    font-style: SemiBold;
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 113px;
+    letter-spacing: 0%;
+    /* text-align: left; */
+}
+
+.r-side-subtitle h3 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Lora;
+    font-style: SemiBold;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0%;
+    /* text-align: left; */
+}
+
+/* Стилізація випадаючої кнопки */
+.dropbtn {
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    opacity: 0%;
+}
+
+.indian {
+    color: rgba(255, 255, 255, 1);
+
+    font-family: 'Inter', sans-serif;
+    font-style: Medium;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    opacity: 100%;
+}
+
+/* Контейнер <div> - необхідно розмістити випадаючий контент */
+.dropdown {
+    height: 51px;
+    width: 124px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Випадаючий контент (приховано за замовчуванням) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Посилання всередині випадаючого списку */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Змінити колір випадаючих посилань при наведенні */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Показати випадаюче меню при наведенні */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Змінити колір фону кнопки випадаючого списку, коли відображається зміст випадаючого списку. */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.rectangle {
+  width: 151px;
+  height: 2px;
+  background-color: #3498db; /* колір прямокутника */
+}
